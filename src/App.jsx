@@ -1,23 +1,18 @@
-import { Header } from './components/Header'
-import { Sidebar } from './components/Sidebar'
-import { MainContent } from './layouts/MainContent'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import LoginPage from './pages/LoginPage'
+import MainPage from './pages/MainPage'
+import { useAuth0 } from '@auth0/auth0-react'
 
 function App () {
+  const { isAuthenticated } = useAuth0()
+
   return (
-    <>
-      <Header />
-      <main className='md:flex'>
-        <Sidebar />
-        <section className='w-full'>
-          <MainContent>
-            <h2 className='text-2xl font-bold'>Sección 1</h2>
-            <h2 className='text-2xl font-bold'>Sección 2</h2>
-            <h2 className='text-2xl font-bold'>Sección 3</h2>
-            <h2 className='text-2xl font-bold'>Sección 4</h2>
-          </MainContent>
-        </section>
-      </main>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={isAuthenticated ? <MainPage /> : <LoginPage />} />
+        <Route path='/login' element={<LoginPage />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
