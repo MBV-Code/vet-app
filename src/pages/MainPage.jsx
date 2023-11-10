@@ -3,6 +3,9 @@ import { Header } from '../components/Header'
 import { Sidebar } from '../components/Sidebar'
 import { MainContent } from '../layouts/MainContent'
 import SearchClient from '../sections/SearchClient'
+import HealthPlans from '../sections/HealthPlans'
+import { UsersTable } from '../components/UsersTable'
+import { PetsTable } from '../components/PetsTable'
 
 function MainPage () {
   return (
@@ -13,9 +16,9 @@ function MainPage () {
         <section className='w-full'>
           <MainContent>
             <SearchClient />
-            <h2 className='text-2xl font-bold'>Sección 2</h2>
-            <h2 className='text-2xl font-bold'>Sección 3</h2>
-            <h2 className='text-2xl font-bold'>Sección 4</h2>
+            <HealthPlans />
+            <UsersTable />
+            <PetsTable />
           </MainContent>
         </section>
       </main>
