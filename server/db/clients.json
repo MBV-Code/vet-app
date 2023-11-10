@@ -3,6 +3,377 @@
 		"id": 1,
 		"email": "mauro@gmail.com",
 		"name": "Mauro",
-		"lastname": "Brandan"
+		"lastname": "Brandan",
+		"dni": "12345678",
+		"address": "Av. Siempre Viva 123",
+		"phone": "12345678",
+		"pets": [
+			{
+				"id": 1,
+				"name": "Pepito",
+				"age": 2,
+				"breed": "Caniche",
+				"gender": "Macho",
+				"weight": "10kg",
+				"owner": 1
+			},
+			{
+				"id": 2,
+				"name": "Pepita",
+				"age": 3,
+				"breed": "Caniche",
+				"gender": "Hembra",
+				"weight": "8kg",
+				"owner": 1
+			}
+		]
+	},
+	{
+		"id": 2,
+		"email": "john.doe@gmail.com",
+		"name": "John",
+		"lastname": "Doe",
+		"dni": "87654321",
+		"address": "123 Main St",
+		"phone": "98765432",
+		"pets": [
+			{
+				"id": 3,
+				"name": "Max",
+				"age": 4,
+				"breed": "Labrador Retriever",
+				"gender": "Macho",
+				"weight": "25kg",
+				"owner": 2
+			},
+			{
+				"id": 4,
+				"name": "Lucy",
+				"age": 2,
+				"breed": "Golden Retriever",
+				"gender": "Hembra",
+				"weight": "20kg",
+				"owner": 2
+			}
+		]
+	},
+	{
+		"id": 3,
+		"email": "jane.smith@gmail.com",
+		"name": "Jane",
+		"lastname": "Smith",
+		"dni": "56789012",
+		"address": "456 Elm St",
+		"phone": "34567890",
+		"pets": [
+			{
+				"id": 5,
+				"name": "Buddy",
+				"age": 1,
+				"breed": "French Bulldog",
+				"gender": "Macho",
+				"weight": "12kg",
+				"owner": 3
+			},
+			{
+				"id": 6,
+				"name": "Lola",
+				"age": 5,
+				"breed": "Poodle",
+				"gender": "Hembra",
+				"weight": "7kg",
+				"owner": 3
+			}
+		]
+	},
+	{
+		"id": 4,
+		"email": "michael.johnson@gmail.com",
+		"name": "Michael",
+		"lastname": "Johnson",
+		"dni": "23456789",
+		"address": "789 Oak St",
+		"phone": "45678901",
+		"pets": [
+			{
+				"id": 7,
+				"name": "Rocky",
+				"age": 3,
+				"breed": "German Shepherd",
+				"gender": "Macho",
+				"weight": "30kg",
+				"owner": 4
+			},
+			{
+				"id": 8,
+				"name": "Molly",
+				"age": 4,
+				"breed": "Beagle",
+				"gender": "Hembra",
+				"weight": "15kg",
+				"owner": 4
+			}
+		]
+	},
+	{
+		"id": 5,
+		"email": "sarah.wilson@gmail.com",
+		"name": "Sarah",
+		"lastname": "Wilson",
+		"dni": "34567890",
+		"address": "987 Pine St",
+		"phone": "56789012",
+		"pets": [
+			{
+				"id": 9,
+				"name": "Charlie",
+				"age": 2,
+				"breed": "Corgi",
+				"gender": "Macho",
+				"weight": "11kg",
+				"owner": 5
+			},
+			{
+				"id": 10,
+				"name": "Luna",
+				"age": 1,
+				"breed": "Shih Tzu",
+				"gender": "Hembra",
+				"weight": "6kg",
+				"owner": 5
+			}
+		]
+	},
+	{
+		"id": 6,
+		"email": "daniel.miller@gmail.com",
+		"name": "Daniel",
+		"lastname": "Miller",
+		"dni": "45678901",
+		"address": "654 Maple St",
+		"phone": "67890123",
+		"pets": [
+			{
+				"id": 11,
+				"name": "Bella",
+				"age": 3,
+				"breed": "Bulldog",
+				"gender": "Hembra",
+				"weight": "18kg",
+				"owner": 6
+			},
+			{
+				"id": 12,
+				"name": "Maximus",
+				"age": 4,
+				"breed": "Rottweiler",
+				"gender": "Macho",
+				"weight": "35kg",
+				"owner": 6
+			}
+		]
+	},
+	{
+		"id": 7,
+		"email": "emily.thompson@gmail.com",
+		"name": "Emily",
+		"lastname": "Thompson",
+		"dni": "56789012",
+		"address": "321 Cedar St",
+		"phone": "78901234",
+		"pets": [
+			{
+				"id": 13,
+				"name": "Cooper",
+				"age": 2,
+				"breed": "Labradoodle",
+				"gender": "Macho",
+				"weight": "20kg",
+				"owner": 7
+			},
+			{
+				"id": 14,
+				"name": "Lucy",
+				"age": 3,
+				"breed": "Cocker Spaniel",
+				"gender": "Hembra",
+				"weight": "12kg",
+				"owner": 7
+			}
+		]
+	},
+	{
+		"id": 8,
+		"email": "matthew.davis@gmail.com",
+		"name": "Matthew",
+		"lastname": "Davis",
+		"dni": "67890123",
+		"address": "789 Oak St",
+		"phone": "90123456",
+		"pets": [
+			{
+				"id": 15,
+				"name": "Bailey",
+				"age": 1,
+				"breed": "Golden Retriever",
+				"gender": "Macho",
+				"weight": "25kg",
+				"owner": 8
+			},
+			{
+				"id": 16,
+				"name": "Lily",
+				"age": 2,
+				"breed": "Shiba Inu",
+				"gender": "Hembra",
+				"weight": "10kg",
+				"owner": 8
+			}
+		]
+	},
+	{
+		"id": 9,
+		"email": "olivia.martin@gmail.com",
+		"name": "Olivia",
+		"lastname": "Martin",
+		"dni": "78901234",
+		"address": "987 Elm St",
+		"phone": "12345678",
+		"pets": [
+			{
+				"id": 17,
+				"name": "Rocky",
+				"age": 4,
+				"breed": "Boxer",
+				"gender": "Macho",
+				"weight": "30kg",
+				"owner": 9
+			},
+			{
+				"id": 18,
+				"name": "Mia",
+				"age": 3,
+				"breed": "Pomeranian",
+				"gender": "Hembra",
+				"weight": "8kg",
+				"owner": 9
+			}
+		]
+	},
+	{
+		"id": 10,
+		"email": "william.wilson@gmail.com",
+		"name": "William",
+		"lastname": "Wilson",
+		"dni": "89012345",
+		"address": "654 Pine St",
+		"phone": "23456789",
+		"pets": [
+			{
+				"id": 19,
+				"name": "Duke",
+				"age": 2,
+				"breed": "Siberian Husky",
+				"gender": "Macho",
+				"weight": "22kg",
+				"owner": 10
+			},
+			{
+				"id": 20,
+				"name": "Molly",
+				"age": 1,
+				"breed": "Maltese",
+				"gender": "Hembra",
+				"weight": "5kg",
+				"owner": 10
+			}
+		]
+	},
+	{
+		"id": 11,
+		"email": "oliver.johnson@gmail.com",
+		"name": "Oliver",
+		"lastname": "Johnson",
+		"dni": "90123456",
+		"address": "321 Maple St",
+		"phone": "67890123",
+		"pets": [
+			{
+				"id": 21,
+				"name": "Charlie",
+				"age": 3,
+				"breed": "Cavalier King Charles Spaniel",
+				"gender": "Macho",
+				"weight": "10kg",
+				"owner": 11
+			},
+			{
+				"id": 22,
+				"name": "Luna",
+				"age": 2,
+				"breed": "Yorkshire Terrier",
+				"gender": "Hembra",
+				"weight": "4kg",
+				"owner": 11
+			}
+		]
+	},
+	{
+		"id": 12,
+		"email": "emma.miller@gmail.com",
+		"name": "Emma",
+		"lastname": "Miller",
+		"dni": "01234567",
+		"address": "789 Cedar St",
+		"phone": "90123456",
+		"pets": [
+			{
+				"id": 23,
+				"name": "Max",
+				"age": 4,
+				"breed": "Labrador Retriever",
+				"gender": "Macho",
+				"weight": "28kg",
+				"owner": 12
+			},
+			{
+				"id": 24,
+				"name": "Lucy",
+				"age": 5,
+				"breed": "Golden Retriever",
+				"gender": "Hembra",
+				"weight": "26kg",
+				"owner": 12
+			}
+		]
+	},
+	{
+		"id": 13,
+		"email": "mia.thompson@gmail.com",
+		"name": "Mia",
+		"lastname": "Thompson",
+		"dni": "12345678",
+		"address": "987 Oak St",
+		"phone": "34567890",
+		"pets": [
+			{
+				"id": 25,
+				"name": "Buddy",
+				"age": 2,
+				"breed": "French Bulldog",
+				"gender": "Macho",
+				"weight": "12kg",
+				"owner": 13
+			},
+			{
+				"id": 26,
+				"name": "Lola",
+				"age": 3,
+				"breed": "Poodle",
+				"gender": "Hembra",
+				"weight": "7kg",
+				"owner": 13
+			}
+		]
 	}
 ]
