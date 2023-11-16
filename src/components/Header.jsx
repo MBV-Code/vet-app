@@ -1,4 +1,5 @@
-import { DogIcon, CalendarIcon, AmbulanceIcon, HeadsetIcon, MenuIcon } from './Icons.jsx'
+import { DogIcon, CalendarIcon, AmbulanceIcon, HeadsetIcon, MenuIcon, UserSettingsIcon } from './Icons.jsx'
+import { Link } from 'react-router-dom'
 
 export function Header () {
   return (
@@ -13,10 +14,10 @@ export function Header () {
               <a href='/'><DogIcon /></a>
             </li>
             <li>
-              <a href='/pets'><CalendarIcon /></a>
+              <a href='/'><CalendarIcon /></a>
             </li>
             <li>
-              <a href='/pets'><AmbulanceIcon /></a>
+              <a href='/'><AmbulanceIcon /></a>
             </li>
           </ul>
         </div>
@@ -26,7 +27,10 @@ export function Header () {
               <a href='/'><HeadsetIcon /></a>
             </li>
             <li>
-              <a href='/pets'><MenuIcon /></a>
+              <a href='/'><MenuIcon /></a>
+            </li>
+            <li>
+              <Link to='/login'><UserSettingsIcon className='text-white' /></Link>
             </li>
           </ul>
         </div>
