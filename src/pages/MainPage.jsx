@@ -1,13 +1,23 @@
-import React from 'react'
+import { useState } from 'react'
 import { Header } from '../components/Header'
 import { Sidebar } from '../components/Sidebar'
 import { MainContent } from '../layouts/MainContent'
-import SearchClient from '../sections/SearchClient'
+import ClientForms from '../sections/ClientForms'
 import HealthPlans from '../sections/HealthPlans'
-import { UsersTable } from '../components/UsersTable'
+import { ClientsTable } from '../components/ClientsTable'
 import { PetsTable } from '../components/PetsTable'
 
 function MainPage () {
+  // ToDo: Move this to a custom hook or a context
+  const [searchQuery, setSearchQuery] = useState({
+    nameField: false,
+    nameSearch: '',
+    lastNameField: false,
+    lastNameSearch: '',
+    petNameField: false,
+    petSearch: ''
+  })
+
   return (
     <>
       <Header />
@@ -15,9 +25,9 @@ function MainPage () {
         <Sidebar />
         <section className='w-full'>
           <MainContent>
-            <SearchClient />
+            <ClientForms searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
             <HealthPlans />
-            <UsersTable />
+            <ClientsTable searchQuery={searchQuery} />
             <PetsTable />
           </MainContent>
         </section>
