@@ -1,8 +1,29 @@
-# React + Vite
+# Vet App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Uso
 
-Currently, two official plugins are available:
+Instalar dependencias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+npm install
+```
+
+Crear un archivo `.env.local`. Con las siguientes variables de entorno:
+
+```bash
+VITE_AUTH0_DOMAIN=
+VITE_AUTH0_CLIENT_ID=
+VITE_API_PORT=5555
+```
+
+Correr servidor:
+
+```bash
+npm run server
+```
+
+Correr aplicación en modo de desarrollo
+
+```bash
+npm run dev
+```
